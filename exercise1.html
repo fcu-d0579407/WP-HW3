@@ -5,12 +5,12 @@
 		<title></title>
 		<script type = "text/javascript">
 		
-			var temperature_C;
+			var temperature;
 			temperature_C = window.prompt("輸入攝氏溫度:");
-			function CtoF(temperature_C){
-				return temperature_C*(9/5)+32;
+			function CtoF(temperature){
+				return temperature*(9/5)+32;
 			}
-			document.writeln("<h1>攝氏溫度是 " + temperature_C + "°C\n</h1>" + "<h1>華氏溫度是 " + CtoF(temperature_C)+ "°F\n</h1>");
+			document.writeln("<h1>攝氏溫度是 " + temperature + "°C\n</h1>" + "<h1>華氏溫度是 " + CtoF(temperature)+ "°F\n</h1>");
 		</script>
 	</head>
 	<body>
